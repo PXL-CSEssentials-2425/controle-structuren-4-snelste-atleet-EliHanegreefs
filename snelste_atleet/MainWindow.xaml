@@ -7,6 +7,15 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Label Content="Naam atleet :" HorizontalAlignment="Left" Margin="76,77,0,0" VerticalAlignment="Top" Height="26" Width="111"/>
+        <Label Content="Aantal seconden :" HorizontalAlignment="Left" Margin="76,128,0,0" VerticalAlignment="Top" Width="111"/>
+        <TextBox x:Name="nameTextBox" HorizontalAlignment="Left" Margin="197,69,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="158" Height="42"/>
+        <TextBox x:Name="secondenTextBox" HorizontalAlignment="Left" Margin="197,120,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="158" Height="42"/>
+        <TextBox x:Name="resultTextBox" HorizontalAlignment="Left" Margin="89,217,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="480" Height="193" IsEnabled="False"/>
+        <Button x:Name="newButton" Content="Nieuw" HorizontalAlignment="Left" Margin="604,69,0,0" VerticalAlignment="Top" Height="65" Width="152" Click="newButton_Click"/>
+        <Button x:Name="fastestButton" Content="Snelste atleet" HorizontalAlignment="Left" Margin="604,141,0,0" VerticalAlignment="Top" Height="65" Width="152" Click="fastestButton_Click"/>
+        <Button x:Name="clearButton" Content="Wissen" HorizontalAlignment="Left" Margin="604,217,0,0" VerticalAlignment="Top" Height="65" Width="152" Click="clearButton_Click"/>
+        <Button x:Name="closeButton" Content="Afsluiten" HorizontalAlignment="Left" Margin="604,300,0,0" VerticalAlignment="Top" Height="65" Width="152" Click="closeButton_Click"/>
 
     </Grid>
 </Window>
